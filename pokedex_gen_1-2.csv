@@ -1,0 +1,77 @@
+pokedex,nombre,generacion,tipo1,tipo2,habilidad-especial1,habilidad-especial2,egg-group1,egg-group2,nivel-de-evolucion,forma-regional,legendario
+76,golem,1,rock,ground,rock head,sturdy,mineral,,2,True,False
+77,ponyta,1,fire,,run away,flash fire,field,,1,True,False
+78,rapidash,1,fire,,run away,flash fire,field,,1,True,False
+79,slowpoke,1,water,psychic,oblivious,own tem,monster,water 1,1,True,False
+80,slowbro,1,water,psychic,oblivious,own temp,monster,water 1,1,True,False
+81,magnemite,1,electric,steel,magnet pull,sturdy,mineral,,0,False,False
+82,magneton,1,electric,steel,magnet pull,sturdy,mineral,,0,False,False
+83,farfetch'd,1,normal,flying,keen eye,inner focus,flying,field,1,True,False
+84,doduo,1,normal,flying,run away,early bir,flying,,0,False,False
+85,dodrio,1,normal,flying,run away,early b,flying,,0,False,False
+86,seel,1,water,,thick fat,hydrationgen iv+,water 1,field,0,False,False
+87,dewgong,1,water,ice,thick fat,hydrationgen iv+,water 1,field,0,False,False
+88,grimer,1,poison,,stench,sticky hold,amorphous,,1,True,False
+89,muk,1,poison,,stench,sticky hold,amorphous,,1,True,False
+90,shellder,1,water,,shell armor,skill linkgen iv+,water 3,,0,False,False
+91,cloyster,1,water,ice,shell armor,skill linkgen iv+,water 3,,0,False,False
+92,gastly,1,ghost,poison,levitate,,amorphous,,0,False,False
+93,haunter,1,ghost,poison,levi,,amorphous,,0,False,False
+94,gengar,1,ghost,poison,cursed bodygen vii+,,amorphous,,0,False,False
+95,onix,1,rock,ground,rock head,sturdy,mineral,,0,False,False
+96,drowzee,1,psychic,,insomnia,forewarngen iv+,human-like,,0,False,False
+97,hypno,1,psychic,,insomnia,forewarngen iv+,human-like,,0,False,False
+98,krabby,1,water,,hyper cutter,shell armo,water 3,,0,False,False
+99,kingler,1,water,,hyper cutter,shell armo,water 3,,0,False,False
+100,voltorb,1,electric,,soundproof,static,mineral,,1,False,False
+101,electrode,1,electric,,soundproof,stati,mineral,,1,False,False
+102,exeggcute,1,grass,psychic,chlorophyll,,grass,,0,False,False
+103,exeggutor,1,grass,psychic,chlorophyll,,grass,,0,True,False
+104,cubone,1,ground,,rock head,lightning rod,monster,,0,False,False
+105,marowak,1,ground,,rock head,lightning rod,monster,,0,True,False
+106,hitmonlee,1,fighting,,limber,recklessgen iv+,human-like,,0,False,False
+107,hitmonchan,1,fighting,,keen eye,iron fistgen iv+,human-like,,0,False,False
+108,lickitung,1,normal,,own tempo,oblivious,monster,,0,False,False
+109,koffing,1,poison,,levitate,neutralizing gasgen viii+,amorphous,,0,False,False
+110,weezing,1,poison,,levitate,neutralizing gasgen viii+,amorphous,,0,True,False
+111,rhyhorn,1,ground,rock,lightning rod,rock head,monster,field,0,False,False
+112,rhydon,1,ground,rock,lightning rod,rock hea,monster,field,0,False,False
+113,chansey,1,normal,,natural cure,serene grac,fairy,,0,False,False
+114,tangela,1,grass,,chlorophyll,leaf guardgen iv+,grass,,0,False,False
+115,kangaskhan,1,normal,,early bird,scrappygen iv+,monster,,0,False,False
+116,horsea,1,water,,swift swim,snipergen iv+,water 1,dragon,0,False,False
+117,seadra,1,water,,poison point,snipergen iv+,water 1,dragon,0,False,False
+118,goldeen,1,water,,swift swim,water vei,water 2,,0,False,False
+119,seaking,1,water,,swift swim,water veil,water 2,,0,False,False
+120,staryu,1,water,,illuminate,natural cure,water 3,,0,False,False
+121,starmie,1,water,psychic,illuminate,natural cu,water 3,,0,False,False
+122,mr. mime,1,psychic,fairy,soundproof,filtergen iv+,human-like,,2,True,False
+123,scyther,1,bug,flying,swarm,techniciangen iv+,bug,,0,False,False
+124,jynx,1,ice,psychic,oblivious,forewarngen iv+,human-like,,0,False,False
+125,electabuzz,1,electric,,stati,,human-like,,0,False,False
+126,magmar,1,fire,,flame body,,human-like,,0,False,False
+127,pinsir,1,bug,,hyper cutter,mold breakergen iv+,bug,,0,False,False
+128,tauros,1,normal,,intimidate,anger pointgen iv+,field,,0,False,False
+129,magikarp,1,water,,swift swim,,water 2,dragon,0,False,False
+130,gyarados,1,water,flying,intimidate,,water 2,dragon,0,False,False
+131,lapras,1,water,ice,water absorb,shell armo,monster,water 1,0,False,False
+132,ditto,1,normal,,limber,,ditto,,0,False,False
+133,eevee,1,normal,,run away,adaptabilitygen iv+,field,,0,False,False
+134,vaporeon,1,water,,water absorb,,field,,0,False,False
+135,jolteon,1,electric,,volt absorb,,field,,0,False,False
+136,flareon,1,fire,,flash fi,,field,,0,False,False
+137,porygon,1,normal,,trace,downloadgen iv+,mineral,,0,False,False
+138,omanyte,1,rock,water,swift swim,shell armor,water 1,water 3,0,False,False
+139,omastar,1,rock,water,swift swim,shell armo,water 1,water 3,0,False,False
+140,kabuto,1,rock,water,swift swim,battle armor,water 1,water 3,0,False,False
+141,kabutops,1,rock,water,swift swim,battle armor,water 1,water 3,0,False,False
+142,aerodactyl,1,rock,flying,rock head,pressu,flying,,0,False,False
+143,snorlax,1,normal,,immunity,thick fat,monster,,0,False,False
+144,articuno,1,ice,flying,pressure,,no eggs discovered,,0,True,True
+145,zapdos,1,electric,flying,pressure,,no eggs discovered,,0,True,True
+146,moltres,1,fire,flying,pressu,,no eggs discovered,,0,True,True
+147,dratini,1,dragon,,shed sk,,water 1,dragon,0,False,False
+148,dragonair,1,dragon,,shed sk,,water 1,dragon,0,False,False
+149,dragonite,1,dragon,flying,inner focus,,water 1,dragon,0,False,True
+150,mewtwo,1,psychic,,pressur,,no eggs discovered,,0,False,True
+151,mew,1,psychic,,synchroniz,,no eggs discovered,,0,False,True
