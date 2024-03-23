@@ -101,24 +101,27 @@ def scrapeo_que_te_veo (lista):
             # Encuentra las abilidades del pokémon
             if re.search('^abilities$' , dato.lower()) or re.search('^ability$' , dato.lower()):
                 
-                if 'or' in lista_datos[i+1]:
+                patron_ab = r'Gen\s.*'
+                
+                if 'or ' in lista_datos[i+1]:
                     abilidades = lista_datos[i+1].split('or ')
-                   
-                    if len(abilidades) > 1:
-                        pokedex_2['habilidad-especial1'].append(abilidades[0].replace('\xa0' , '').lower().strip())
-                        pokedex_2['habilidad-especial2'].append(abilidades[1].rstrip(nombre).strip().lower())
+                    pokedex_2['habilidad-especial1'].append(abilidades[0].replace('\xa0' , '').lower().strip())
+                    abilidad2 = re.sub(patron_ab, '', abilidades[1])
+                    gen_abilidad = re.findall(patron_ab , abilidades[1])
+                    if gen_abilidad:
+                        pokedex_2['habilidad-especial2'].append(f"{abilidad2.replace(nombre, '').strip().lower()} ({gen_abilidad[0].replace(nombre , '').replace('+', '').lower()})")
                     else:
-                        pokedex_2['habilidad-especial1'].append(abilidades[0].replace('\xa0' , '').rstrip(nombre).lower().strip())
-                        pokedex_2['habilidad-especial2'].append(np.nan)
+                        pokedex_2['habilidad-especial2'].append(abilidad2.replace(nombre, '').strip().lower())
+
                 else: 
-                    pokedex_2['habilidad-especial1'].append(lista_datos[i+1].rstrip(nombre).lower().strip())
+                    pokedex_2['habilidad-especial1'].append(lista_datos[i+1].replace(nombre , '').lower().strip())
                     pokedex_2['habilidad-especial2'].append(np.nan)
             
             # Encuentra el grupo-huevo del pokémon        
             if 'egg group' in dato.lower():
                 
-                if 'and' in lista_datos[i+1]:
-                    grupos = lista_datos[i+1].split('and')
+                if 'and ' in lista_datos[i+1]:
+                    grupos = lista_datos[i+1].split('and ')
                     pokedex_2['egg-group1'].append(grupos[0].replace('\xa0' , '').lower().strip())
                     pokedex_2['egg-group2'].append(grupos[1].lower().strip())
                     
